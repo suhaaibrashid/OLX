@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.navbarone,
+.navbartwo {
+    background-color: #f7f8f8;
+    display: flex;
+}
+
+.navbarone .motors,
+.navbarone .property {
+    border: 2px solid #f7f8f8;
+    width: 150px;
+    height: auto;
+    margin-left: 50px;
+    background-color: #f7f8f8;
+}
+
+.navbarone .motors a,
+.navbarone .property a {
+    font-size: 14px;
+    background-color: #f7f8f8;
+    text-decoration: none;
+    color: black;
+}
+
+.navbarone .olxblue {
+    color: blue;
+    background-color: #f7f8f8;
+    margin-left: 80px;
+}
+
+.navbartwo .olxblack {
+    background-color: #f7f8f8;
+    margin-left: 80px;
+}
+
+.navbartwo .country,
+.navbartwo .country option {
+    width: 250px;
+    background-color: #f7f8f8;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 30px;
+    border: 2px solid black;
+}
+
+.navbartwo .find {
+    width: 550px;
+    background-color: #f7f8f8;
+    margin-left: 25px;
+    border: 2px solid black;
+    text-align: center
+}
+
+.navbartwo .login,
+.navbartwo .sell {
+    border: 2px solid #f7f8f8;
+    width: 150px;
+    height: auto;
+    background-color: #f7f8f8;
+    margin-left: 20px;
+}
+
+.navbartwo .login a,
+.navbartwo .sell a {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f7f8f8;
+    text-decoration: none;
+    color: black;
+}
+
+.navbartwo .login {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: black;
+}
+
+.navbartwo .sell {
+    border: 5px solid black;
+    border-radius: 15px;
+    border-top-color: aqua;
+    border-right-color: dodgerblue;
+    border-bottom-color: yellow;
+}
+
+.navbarthree {
+    display: flex;
+    background-color: white;
+}
+
+.navbarthree .categories {
+    background-color: white;
+}
+
+.navbarthree .categories select {
+    background-color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid white;
+    width: 250px;
+    height: 35px;
+}
+
+.navbarthree .categories option {
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navbarthree .tab {
+    background-color: white;
+}
+
+.navbarthree .tab button {
+    background-color: white;
+    border: 2px solid white;
+    width: 120px;
+    height: 35px;
+}
+
+.navbarthree .tab a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bodyone .mainbox {
+
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid white;
+    width: 100%;
+    height: 380px;
+    background-color: white;
+}
+
+.bodyone .mainbox .mobilebox {
+    border: 2px solid white;
+    margin-left: 35px;
+    width: 120px;
+    height: 180px;
+    background-color: white;
+}
+
+.bodyone .mainbox .mobilebox .mobilehone {
+    font-size: 16px;
+    font-weight: lighter;
+    background-color: white;
+    text-align: center;
+}
+
+.bodyone .mainbox .mobilebox img {
+    background-color: white;
+    text-align: center;
+}
+
+.bodyone .allcategories {
+    border: 5px solid white;
+    background-color: white;
+    width: 100%;
+    height: 200px;
+}
+
+.bodyone .allcategories h1 {
+    background-color: white;
+    margin-left: 60px;
+    margin-top: 158px;
+}
+
+.bodytwo .mobilesell {
+    background-color: white;
+}
+
+.bodytwo .mobilesell .mobilehead {
+    background-color: white;
+    display: flex;
+    margin-left: 100px;
+    width: 100%;
+}
+
+.bodytwo .mobilesell .mobilehead .mobilephone {
+    background-color: white;
+}
+
+.bodytwo .mobilesell .mobilehead .moremobile {
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    color: dodgerblue;
+    border-style: none;
+    margin-left: 1050px;
+}
+
+
+.bodytwo .mobilesell .mobilephonesellone {
+    background-color: white;
+    border: 2px solid black;
+    width: 263px;
+    height: 270px;
+}
+
+.bodytwo .mobilephonemain {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 16px;
+}
+
+.bodytwo .mobilesell .mobilephonemain .mobilephonesellone {
+    background-color: white;
+}
+
+.bodytwo .mobilesell .mobilephonemain .mobilephonesellone .mobilephonedet {
+    background-color: white;
+    font-size: 16px;
+}
+
+.navbarfour {
+    background-color: hsl(195, 11.11%, 92.94%);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbarfour .popular .popularhead {
+    background-color: hsl(195, 11.11%, 92.94%);
+    font-size: 16px;
+}
+
+.navbarfour .popular li {
+    list-style: none;
+    background-color: hsl(195, 11.11%, 92.94%);
+}
+
+.navbarfour .popular li a {
+    background-color: hsl(195, 11.11%, 92.94%);
+    color: hsl(120, 4.11%, 71.37%);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navbarfour .popular button {
+    background-color: hsl(195, 11.11%, 92.94%);
+    border: 2px solid #a9b9ba;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.navbarfour .popular button img {
+    background-color: hsl(195, 11.11%, 92.94%);
+}
+
+.navbarfour .popular {
+    background-color: hsl(195, 11.11%, 92.94%);
+}
+
+.main .navbarfive h1 {
+    font-size: 16px;
+    width: 100%;
+    height: auto;
+    background-color: #002f34;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
